@@ -34,8 +34,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
 
-    Route::resource('reports', ReportController::class)->only('index');
-    Route::resource('receipts', ReceiptController::class)->only('create', 'store');
     Route::resource('inventories', InventoryController::class);
     Route::resource('{inventory}/items', ItemController::class);
 

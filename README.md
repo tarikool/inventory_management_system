@@ -1,38 +1,16 @@
 # Receipt Management System
 
-In this application user can add receipts and filter data in the table by user id.
+In this application user can create inventories and add items in the inventory. It is built using Laravel, Vue.js and Inertia.js
 
-## Technologies Used
-
-This application is built using the following technologies:
-
-- **Laravel 10**
-
-- **Vue 3**
-
-- **Vuelidate 2**
-
-- **Axios**
-
-- **Inertia.js**
-
-## Requirements
-
-- **PHP 8.2**
-
-- **Mysql**
-
-- **Node.js- v16.16.0**
 
 
 ## Getting Started
 After cloning this repository please follow below steps:
 
-1. Provide your database credentials in the `.env` file and import the database from "database" folder
+1. Provide database credentials in the `.env` file
+2. Import the database from "database" folder
+3. Run  "composer install" & "php artisan serve"
 
-2. Open terminal and run  "composer install" & "php artisan serve"
-
-3. Open another terminal and run  "npm install" & "npm run dev"
 
 Demo credentials
 
