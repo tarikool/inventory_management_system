@@ -1,4 +1,4 @@
-# Receipt Management System
+# Inventory Management System
 
 In this application user can create inventories and add items in the inventory. It is built using Laravel, Vue.js and Inertia.js
 
