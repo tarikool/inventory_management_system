@@ -77,7 +77,7 @@
                                 <td class="px-6 py-4" v-text="item.quantity"/>
                                 <td class="px-6 py-4" v-text="item.description"/>
                                 <td class="px-6 py-4 text-right">
-                                    <a :href="route('items.edit', [inventory.id, item.id])" class="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2">Edit</a>
+                                    <Link :href="route('items.edit', [inventory.id, item.id])" class="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2">Edit</Link>
                                     <a href="#" @click="deleteItem(item)" class="font-medium text-red-600 dark:text-blue-500 hover:underline ">Delete</a>
                                 </td>
                             </tr>

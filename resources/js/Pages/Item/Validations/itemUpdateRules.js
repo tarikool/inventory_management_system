@@ -11,6 +11,7 @@ const rules = {
     name: {required, maxLength: maxLength(60)},
     quantity: {required, numeric},
     description: {required, maxLength: maxLength(255)},
+    image: {},
 }
 
 

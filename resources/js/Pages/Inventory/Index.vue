@@ -70,11 +70,11 @@
                                 <td class="px-6 py-4" v-text="inventory.description"/>
                                 <td class="px-6 py-4" v-text="inventory.user.name"/>
                                 <td class="px-6 py-4">
-                                    <a :href="route('items.index', inventory.id)" class="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2">Item List</a>
+                                    <Link :href="route('items.index', inventory.id)" class="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2">Item List</Link>
                                 </td>
 
                                 <td class="px-6 py-4 text-right">
-                                    <a :href="route('inventories.edit', inventory.id)" class="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2">Edit</a>
+                                    <Link :href="route('inventories.edit', inventory.id)" class="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2">Edit</Link>
                                     <a href="#" @click="deleteInventory(inventory.id)" class="font-medium text-red-600 dark:text-blue-500 hover:underline ">Delete</a>
                                 </td>
                             </tr>
