@@ -9,7 +9,8 @@ After cloning this repository please follow below steps:
 
 1. Provide database credentials in the `.env` file
 2. Import the database from "database" folder
-3. Run  "composer install" & "php artisan serve"
+3. Run "php artisan db:seed"
+4. Run  "composer install" & "php artisan serve"
 
 
 Demo credentials
